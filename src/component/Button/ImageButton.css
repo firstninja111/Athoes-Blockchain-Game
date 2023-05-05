@@ -1,0 +1,72 @@
+.size-xl {
+    width: 300px;
+    height: 90px;
+    font-size: 26px;
+    line-height: 48px;
+}
+.size-xl span {
+    margin-bottom: 10px;
+}
+.size-xl span:first-letter {
+    font-size:34px;
+}
+
+.size-lg {
+    width: 222px;
+    height: 55px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.size-lg span:first-letter {
+    font-size:20px;
+}
+
+
+.size-md {
+    width: 191px;
+    height: 38px;
+    font-size:18px;
+}
+
+.image-button {
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Trajan Pro;
+}
+
+.button-yellow {
+    color: black;
+    background-image: url('../../assets/entirepage/button-yellow.png');
+}
+
+.button-red {
+    color: #C7B668;
+    background-image: url('../../assets/entirepage/button-red.png');
+}
+
+.button-green {
+    color: white;
+    background-image: url('../../assets/entirepage/button-green.png');
+}
+
+
+.image-button-comment {
+    width: 191px;
+    color: #C7B668;
+    font-size: 20px;
+    font-family: Trajan Pro;
+    
+    margin-bottom: 10px;
+}
+
+.image-button-comment span:first-letter {
+    font-size: 24px;
+}

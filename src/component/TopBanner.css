@@ -1,0 +1,11 @@
+.TopBanner {
+    top: 1%;
+    left: 3%;
+    z-index: 8000;
+}
+
+@media only screen and (max-width: 768px) {
+    .TopBanner {
+        left: calc(50% - 75px);
+    }   
+}

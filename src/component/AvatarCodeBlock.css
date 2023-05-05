@@ -1,0 +1,122 @@
+.AvatarCodeBlock {
+    width: 25%;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .AvatarCodeBlock {
+        width: 33%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .AvatarCodeBlock {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .AvatarCodeBlock {
+        width: 100%;
+    }
+}
+.gradient-hover:hover {
+    border: 10px solid;
+    border-image: linear-gradient(to left, hsl(183deg 90% 77%), rgb(37, 137, 143)) 1;
+}
+.gradient-hover-1:hover {
+    border: 10px solid;
+    border-image: linear-gradient(to left, #5b2d81, #e675f4) 1;
+}
+
+.gradient-hover-2:hover {
+    border: 10px solid;
+    border-image: linear-gradient(to left, #F4B544, #A94E22) 1;
+}
+
+.gradient-hover-3:hover {
+    border: 10px solid;
+    border-image: linear-gradient(to left, #6CCE48, #272D18) 1;
+}
+
+.gradient-hover-4:hover {
+    border: 10px solid;
+    border-image: linear-gradient(to left, #161B2F, #7BE2F7) 1;
+}
+
+.gradient-hover-5:hover {
+    border: 10px solid;
+    border-image: linear-gradient(to left, #5CDDCC, #142D3F) 1;
+}
+
+.gradient-block {
+    --border: linear-gradient(to left, #5b2d81, #e675f4);
+    --cursor: pointer;
+
+    color: rgb(255, 255, 255);
+    margin: 0px auto;
+    cursor: var(--cursor);
+    /* padding: 10px; */
+    position: relative;
+    border: 10px solid transparent;
+}
+
+.card__container {
+    position: relative;
+    opacity: 0.9;
+    box-shadow: rgb(25 11 41 / 91%) 1px 2px 6px 0px;
+    /* background: linear-gradient(rgb(31, 27, 65) 0%, rgb(17, 15, 36) 100%); */
+    background: linear-gradient(rgb(22 24 27) 0%, rgb(36 39 44) 100%);
+}
+
+.avatar-image-back{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: grayscale(100%);
+}
+
+.avatar-image {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    filter: grayscale(1);
+}
+
+.avatar-detail {
+    padding: 1rem;
+}
+.avatar-name {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.avatar-role {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.avatar-footer {
+    display: flex;
+    justify-content: space-between;
+    min-height: 24px;
+}
+.social-container a {
+    color: rgb(158, 158, 158);
+}
+.social-container a:hover {
+    color: rgb(230, 222, 222);
+}
+.social-container svg{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+/* @media (min-width: 578px) {
+    .gradient-block {
+        max-width: 278px;
+    }
+} */

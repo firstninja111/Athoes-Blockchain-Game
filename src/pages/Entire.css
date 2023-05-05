@@ -1,0 +1,92 @@
+.Entire {
+    background-image: url('../assets/entirepage/entireBack.png');
+    background-image: url('../assets/FooterBack.jpg');
+
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    padding: 6rem 0rem 0rem 0rem;
+    filter: darkscale(100%);
+}
+
+.navMenu {
+    width: 150px;
+}
+
+.Entire .container {
+    padding: 50px 0px;
+}
+
+.middle-bahamut {
+    margin-top: -10%;
+    margin-bottom: -20%;
+}
+
+.item-larage {
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+}
+
+.item-medium {
+    /* display: flex;
+    justify-content: left; */
+    margin-left: 20%;
+}
+
+.item-small {
+    display: flex;
+    justify-content: right;
+}
+
+.image-arrow1 {
+    position: absolute;
+    left: 16%;
+    top: -5%;
+    transform: rotate(-25deg) scale(0.45);
+}
+
+.image-arrow2 {
+    position: absolute;
+    left: 28%;
+    bottom: 0%;
+    transform: rotate(15deg) scale(0.9);
+}
+
+@media only screen and (max-width: 768px) {
+    .middle-bahamut {
+        margin-top: -5%;
+        margin-bottom: -25%;
+    }
+
+    .item-larage {
+        margin-right: 1%;
+    }
+
+    .image-arrow2 {
+        left: 10%;
+        bottom: -15%;
+        transform: rotate(15deg) scale(0.6);
+    }
+    
+    .image-arrow1 {
+        left: -5%;
+        top: -30%;
+        transform: rotate(-25deg) scale(0.3);
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .image-arrow2 {
+        left: 7%;
+        bottom: -15%;
+        transform: rotate(15deg) scale(0.5);
+    }
+
+    .image-arrow1 {
+        left: -7%;
+        top: -25%;
+        transform: rotate(-40deg) scale(0.25);
+    }
+}
